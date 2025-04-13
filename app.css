@@ -1,0 +1,88 @@
+.resume {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #2980b9;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 8px 0;
+  font-size: 1.1em;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 20px 0;
+}
+
+strong {
+  color: #2980b9;
+  font-weight: bold;
+}
+
+/* Add some space between sections */
+section h2 {
+  margin-bottom: 10px;
+}
+
+/* Add some margin for the first section to make it look balanced */
+section:first-of-type {
+  margin-top: 40px;
+}
+
+/* Styling for lists inside the certifications and soft skills */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .resume {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p, li {
+    font-size: 1em;
+  }
+}
